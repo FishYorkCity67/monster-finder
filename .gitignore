@@ -1,0 +1,26 @@
+# Android
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+*.iml
+.idea/
+*.apk
+*.aab
+*.jks
+*.keystore
+key.properties
+
+# Server
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.pytest_cache/
+
+# Gehört nicht zu diesem Projekt (FishSMP-Ressourcenpaket)
+android/app/src/main/java/de/monsterfinder/data/FishSMP-Pack.zip
+
+.claude/
